@@ -1,5 +1,8 @@
-package io.github.mymonstercat.ocr.operator;
+package io.github.mymonstercat.ocr.det.operator;
 
+import cn.hutool.core.io.resource.ResourceUtil;
+import io.github.mymonstercat.ocr.det.IOperator;
+import org.bytedeco.opencv.global.opencv_imgcodecs;
 import org.bytedeco.opencv.global.opencv_imgproc;
 import org.bytedeco.opencv.opencv_core.Mat;
 import org.bytedeco.opencv.opencv_core.Size;
@@ -18,8 +21,14 @@ public class DetResizeForTest implements IOperator {
     }
 
     @Override
+    public int sort() {
+        return 1;
+    }
+
+    @Override
     public Map<String, Object> apply(Map<String, Object> data) {
         Mat imgMat = (Mat) data.get("image");
+
         HashMap<String, Object> result = new HashMap<>();
         float ratioH = 0;
         float ratioW = 0;
@@ -42,6 +51,7 @@ public class DetResizeForTest implements IOperator {
                 }
                 Mat resizedImg = new Mat();
                 opencv_imgproc.resize(imgMat, resizedImg, new Size(resizeW, resizeH));
+                opencv_imgcodecs.imwrite(ResourceUtil.getResource("3.png").getPath().replace("3.png","resizedImg.png"), resizedImg);
                 result.put("image", resizedImg);
 
             } catch (Exception e) {

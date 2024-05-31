@@ -1,34 +1,0 @@
-
-h	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¨÷¶¼1
-r	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ú‚ìúÿÿÿÿ8©÷¶¼1
-r	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÜØóúÿÿÿÿ8©÷¶¼1
-m	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ£Ù³8©÷¶¼1
-r	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ë¼Õøÿÿÿÿ8©÷¶¼1
-r	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶—Ì¤şÿÿÿÿ8©÷¶¼1
-r	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í®×®üÿÿÿÿ8©÷¶¼1
-n	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è´£8©÷¶¼1
-n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºì¸÷8©÷¶¼1
-n	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èˆÈ8©÷¶¼1
-s	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íµšŒùÿÿÿÿ8©÷¶¼1
-x
-java:S1488Ÿ"ZImmediately return this expression instead of assigning it to the temporary variable "re".(ÀŸï8ª÷¶¼1
-x
-java:S3008"VRename this field "img_channel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯„¥úÿÿÿÿ8±÷¶¼1
-r
-java:S3008"URename this field "img_height" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¯õŸ8±÷¶¼1
-q
-java:S3008"TRename this field "img_width" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¦ƒ¬8±÷¶¼1
-|
-java:S3008"ZRename this field "rec_image_shape" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûµâ£ÿÿÿÿÿ8±÷¶¼1
-^
-java:S1075$"ARefactor your code to get this URI from a customizable parameter.(€Öœ8³÷¶¼1
-o
-java:S3776/"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ıÌ®Š8µ÷¶¼1
-M
-java:S1481E"+Remove this unused "elapse" local variable.(ıı³üùÿÿÿÿ8¶÷¶¼1
-G	java:S106{"+Replace this use of System.out by a logger.(¨—êù8¹÷¶¼1
-L	java:S106"+Replace this use of System.out by a logger.(ƒæŒäúÿÿÿÿ8¹÷¶¼1
-d
-java:S1075¤"ARefactor your code to get this URI from a customizable parameter.(™Ò¼Äÿÿÿÿÿ8¾÷¶¼1
-U
-java:S1068"3Remove this unused "rec_image_shape" private field.(Ûµâ£ÿÿÿÿÿ8¾÷¶¼1

@@ -1,4 +1,9 @@
-package io.github.mymonstercat.ocr.operator;
+package io.github.mymonstercat.ocr.det;
+
+import io.github.mymonstercat.ocr.det.operator.DetResizeForTest;
+import io.github.mymonstercat.ocr.det.operator.KeepKeys;
+import io.github.mymonstercat.ocr.det.operator.NormalizeImage;
+import io.github.mymonstercat.ocr.det.operator.ToCHWImage;
 
 import java.util.*;
 

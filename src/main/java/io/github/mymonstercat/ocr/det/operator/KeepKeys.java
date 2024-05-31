@@ -1,4 +1,7 @@
-package io.github.mymonstercat.ocr.operator;
+package io.github.mymonstercat.ocr.det.operator;
+
+import io.github.mymonstercat.ocr.det.IOperator;
+import org.bytedeco.opencv.opencv_core.Mat;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,6 +15,11 @@ public class KeepKeys implements IOperator {
     }
 
     @Override
+    public int sort() {
+        return 4;
+    }
+
+    @Override
     public Map<String, Object> apply(Map<String, Object> data) {
         Map<String, Object> result = new HashMap<>();
         for (String keepKey : keepKeys) {
@@ -19,6 +27,7 @@ public class KeepKeys implements IOperator {
                 result.put(keepKey, data.get(keepKey));
             }
         }
+        Mat trsMat = (Mat) result.get("image");
         return result;
     }
 
